@@ -1,5 +1,4 @@
-$(".active").hover(function() {
-$(".dropdown-menu").slideToggle();
+$("main-nav li").click(function() {
+$(this).children(".dropdown-menu").show();
 
-}
-);
+});
