@@ -54,3 +54,7 @@ header a {
 .dropdown-menu li {
   display: block;
 }
+.features:hover{
+  display: flex;
+  justify-content: space-between;
+}
